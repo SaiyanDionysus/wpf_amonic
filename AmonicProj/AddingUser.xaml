@@ -40,6 +40,8 @@
             Grid.Row="0"
             Grid.Column="1"
             
+            x:Name="emailBox"
+            
             
             GotFocus="RemoveText"
             LostFocus="AddText"
@@ -63,6 +65,8 @@
             Grid.Row="1"
             Grid.Column="1"
             
+            x:Name="fNameBox"
+            
             GotFocus="RemoveText"
             LostFocus="AddText"
             Tag="Enter your first name..."
@@ -85,6 +89,8 @@
             Grid.Row="2"
             Grid.Column="1"
             
+            x:Name="lNameBox"
+            
             GotFocus="RemoveText"
             LostFocus="AddText"
             Tag="Enter your last name..."
@@ -97,6 +103,8 @@
             Grid.Row="3"
             Grid.Column="0"
             
+            
+            
             Content="Office"
             HorizontalAlignment="Left"
             VerticalAlignment="Center"
@@ -105,11 +113,15 @@
 
         <ComboBox Grid.Row="3" Grid.Column="1"
                   Width="200"
-                  Height="20">
+                  Height="20"
+                  
+                  x:Name="officeBox">
+            
             <TextBlock>Office New York</TextBlock>
             <TextBlock>Office Seattle</TextBlock>
             <TextBlock>Office Arizona</TextBlock>
             <TextBlock>Office Texas</TextBlock>
+            
         </ComboBox>
 
         <Label
@@ -143,6 +155,8 @@
             Grid.Row="5"
             Grid.Column="1"
             
+            x:Name="passBox"
+            
             Width="200"
             Height="20"/>
 
@@ -157,7 +171,9 @@
             Content="Save"
             FontSize="12"
             FontFamily="Comic Sans MS"
-            Background="LightBlue"/>
+            Background="LightBlue"
+            
+            Click="btnSave"/>
 
         <Button
             Grid.Row="6"

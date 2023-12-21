@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using SQLite;
 
 namespace AmonicProj
 {
@@ -54,5 +56,24 @@ namespace AmonicProj
             }
         }
 
+        private void btnSave(object sender, RoutedEventArgs e)
+        {
+            AddedUsers newUsers = new AddedUsers()
+            {
+                Email = emailBox.Text,
+                fName = fNameBox.Text,
+                lName = lNameBox.Text,
+                office = officeBox.Text,
+                Birthdate = datePickerNow.Text,
+                addUserPassword = passBox.Password
+            };
+
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(AddedUsesDb.databasePath))
+            {
+                conn.CreateTable<AddedUsers>();
+                conn.Insert(newUsers);
+            }
+            Close();
+        }
     }
 }
