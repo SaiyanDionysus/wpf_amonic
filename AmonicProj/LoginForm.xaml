@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
+    
     <!--<StackPanel Margin="20">
         <Image Source="assets/amonic.png" Width="450"/>
         <Label Content="Username: " FontSize="20" Margin="100 30 0 0"/>
         <TextBox Width="300"/>
     </StackPanel>-->
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="11*"/>
@@ -32,8 +34,15 @@
            FontWeight="Bold"/>
 
         <TextBox 
+            
             Name ="txtUsername"
-            Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 0 60 40"/>
+            Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 0 60 40"
+            
+            GotFocus="RemoveText"
+            LostFocus="AddText"
+            Tag="Enter your username..."
+            Text="Enter your username..."/>
+        
         <PasswordBox 
             Name="txtPassword"
             Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 40 60 0"/>

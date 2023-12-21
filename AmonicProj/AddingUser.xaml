@@ -170,7 +170,9 @@
             Content="Cancel"
             FontSize="12"
             FontFamily="Comic Sans MS"
-            Background="LightPink"/>
+            Background="LightPink"
+            
+            Click="btnCancel"/>
 
 
     </Grid>

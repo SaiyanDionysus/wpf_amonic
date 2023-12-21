@@ -27,20 +27,32 @@ namespace AmonicProj
 
         public void RemoveText(object sender, EventArgs e)
         {
-            TextBox yourEmail = (TextBox)sender;
-            if (yourEmail.Text == yourEmail.Tag.ToString())
+            TextBox placementText = (TextBox)sender;
+            if (placementText.Text == placementText.Tag.ToString())
             {
-                yourEmail.Text = "";
+                placementText.Text = "";
             }
         }
 
         public void AddText(object sender, EventArgs e)
         {
-            TextBox yourEmail = (TextBox)sender;
-            if (string.IsNullOrWhiteSpace( yourEmail.Text ) )
+            TextBox placementText = (TextBox)sender;
+            if (string.IsNullOrWhiteSpace(placementText.Text ) )
             {
-                yourEmail.Text = yourEmail.Tag.ToString();
+                placementText.Text = placementText.Tag.ToString();
             }
         }
+
+        private void btnCancel(object sender, RoutedEventArgs e)
+        {
+            LoginForm returnToLogin = new LoginForm();
+            returnToLogin.Show();
+
+            if (returnToLogin != null )
+            {
+                Close();
+            }
+        }
+
     }
 }

@@ -26,7 +26,6 @@ namespace AmonicProj
 
         private void btnExit(object sender, RoutedEventArgs e)
         {
-            LoginForm loginForm = new LoginForm();
             Environment.Exit(0);
         }
 
@@ -55,6 +54,24 @@ namespace AmonicProj
             //mainWin.Show();
             AddingUser addUser = new AddingUser();
             addUser.Show();
+        }
+
+        public void RemoveText(object sender, EventArgs e)
+        {
+            TextBox placementText = (TextBox)sender;
+            if (placementText.Text == placementText.Tag.ToString())
+            {
+                placementText.Text = "";
+            }
+        }
+
+        public void AddText(object sender, EventArgs e)
+        {
+            TextBox placementText = (TextBox)sender;
+            if (string.IsNullOrWhiteSpace(placementText.Text))
+            {
+                placementText.Text = placementText.Tag.ToString();
+            }
         }
     }
 }
