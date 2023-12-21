@@ -30,8 +30,12 @@
         <Label Grid.Column="0" Grid.Row="1" Content="Password: " Margin="150 50 0 0"
            FontWeight="Bold"/>
 
-        <TextBox Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 0 60 40"/>
-        <PasswordBox Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 40 60 0"/>
+        <TextBox 
+            Name ="txtUsername"
+            Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 0 60 40"/>
+        <PasswordBox 
+            Name="txtPassword"
+            Grid.Column="1" Grid.Row="1" Width="400" Height="20" Margin="0 40 60 0"/>
 
         <StackPanel Grid.Column="1" Grid.Row="3">
             <Button Content="Login" Background="LightCyan" Width="100" Margin="0 20 200 0" Click="btnLogin"/>

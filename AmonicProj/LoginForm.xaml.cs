@@ -32,7 +32,27 @@ namespace AmonicProj
 
         private void btnLogin(object sender, RoutedEventArgs e)
         {
+            var Username = txtUsername.Text;
+            var Password = txtPassword.Password;
 
+            using (UserContext context = new UserContext())
+            {
+                bool userfound = context.Users.Any(user => user.UserName == Username && user.Password == Password);
+
+                if (userfound)
+                {
+                    GrantAccess();
+                    Close();
+                } else
+                {
+                    MessageBox.Show("Неверно введены данные или такого пользователя не существует!");
+                }
+            }
+        }
+        public void GrantAccess()
+        {
+            MainWindow mainWin = new MainWindow();
+            mainWin.Show();
         }
     }
 }

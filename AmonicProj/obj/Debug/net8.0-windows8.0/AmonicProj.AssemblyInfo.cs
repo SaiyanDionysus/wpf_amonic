@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmonicProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25533508e2bd97f734402ed99b84278d68763e0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmonicProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmonicProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
