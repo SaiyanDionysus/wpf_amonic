@@ -90,7 +90,6 @@ C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\En
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\System.Data.SQLite.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\System.Data.SqlClient.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\System.Data.SQLite.EF6.dll
-C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\System.Data.SQLite.Linq.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\runtimes\win-arm64\native\sni.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\runtimes\win-x64\native\sni.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\runtimes\win-x86\native\sni.dll
@@ -100,3 +99,5 @@ C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\ru
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\bin\Debug\net8.0-windows8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\obj\Debug\net8.0-windows8.0\AddingUser.g.cs
+C:\Users\Denis\source\repos\wpf_amonic\AmonicProj\obj\Debug\net8.0-windows8.0\AddingUser.baml

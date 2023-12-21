@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7p0inPNTdlkUny/ochL7+xkvQZsaRcq1B6D40gYbeW4XYf45iNs8FbmusreAmqPLl68HWcAnMzfVf4/oi6P1mg==",
+  "dgSpecHash": "HehRiFBj1FeGn/EyOdxEsBsA/HLLDZrz42xN7ACrRWTcIaquEA/CHe22pcihWdWLJllBZBJZIms+b5/J0jrjpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Denis\\source\\repos\\wpf_amonic\\AmonicProj\\AmonicProj.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,6 @@
     "C:\\Users\\Denis\\.nuget\\packages\\system.data.sqlite\\1.0.118\\system.data.sqlite.1.0.118.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.118\\system.data.sqlite.ef6.1.0.118.nupkg.sha512",
-    "C:\\Users\\Denis\\.nuget\\packages\\system.data.sqlite.linq\\1.0.118\\system.data.sqlite.linq.1.0.118.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
@@ -53,16 +52,5 @@
     "C:\\Users\\Denis\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Data.SQLite.Linq 1.0.118' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Data.SQLite.Linq",
-      "targetGraphs": [
-        "net8.0-windows8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

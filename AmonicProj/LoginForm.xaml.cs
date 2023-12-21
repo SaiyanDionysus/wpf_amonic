@@ -51,8 +51,10 @@ namespace AmonicProj
         }
         public void GrantAccess()
         {
-            MainWindow mainWin = new MainWindow();
-            mainWin.Show();
+            //MainWindow mainWin = new MainWindow();
+            //mainWin.Show();
+            AddingUser addUser = new AddingUser();
+            addUser.Show();
         }
     }
 }
